@@ -3,3 +3,5 @@ uvicorn
 requests
 beautifulsoup4
 gunicorn
+flask
+gunicorn
