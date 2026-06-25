@@ -1,0 +1,5 @@
+[build]
+buildCommand = "pip install -r requirements.txt"
+
+[deploy]
+startCommand = "gunicorn server_web:app -w 4 -k uvicorn.workers.UvicornWorker"
